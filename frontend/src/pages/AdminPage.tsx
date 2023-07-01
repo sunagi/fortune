@@ -31,7 +31,7 @@ export default function AdminPage() {
     return (
         <>
             <Typography variant="h3" align="center">
-                今日のNFT
+                今日のラッキーガールNFT
             </Typography>
             <hr style={{height: "1px", backgroundColor: "black"}} />
             <div style={{margin : "50px"}}></div>

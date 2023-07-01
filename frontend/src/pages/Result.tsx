@@ -82,7 +82,7 @@ function Result() {
             <div>{result["description"]}</div>
             <div style={{margin : "30px"}}></div>
             <Typography variant="h4">
-                {starSignName}の今日のラッキーアイテムNFT
+                {starSignName}の今日のラッキーガールNFT
             </Typography>
             <Typography style={{margin: "10px"}}>
                 今日の運気を上げるためのNFTを発行します
@@ -136,7 +136,7 @@ function Result() {
                 <Fade in={openNFT}>
                     <Box sx={style} style={{textAlign: "center"}}>
                         <Typography id="transition-modal-title" variant="h6" component="h2">
-                            ラッキーアイテムNFTがミントされました
+                            ラッキーガールNFTがミントされました
                         </Typography>
                         <NFTCard uri={result["image"]}></NFTCard>
                         <div></div>
